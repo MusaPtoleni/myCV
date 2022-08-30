@@ -4,17 +4,20 @@
     box-sizing: border-box;
 }
 
+/*Setting the background properties*/
 main{
     background: linear-gradient(to right,#ffd89b,#19547b);
     min-height: 100vh;
     display: flex;
 }
 
+/*Setting the font style and font weight*/
 body{
     font-weight: 500;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/*This is the dashboard */
 .dashboard{
     flex: 1;
     background-color: white;
@@ -23,6 +26,7 @@ body{
     background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
 }
 
+/*This is the properties for my information bars*/
 .information{
     flex: 2.5;
     display: flex;
@@ -32,6 +36,7 @@ body{
     padding: 3rem;
 }
 
+/*Setting the background color and width of the information bar*/
 .info{
     background-color: white;
     background: linear-gradient(to left, rgba(255,255,255,0.4),rgba(255,255,255,0.6));
@@ -49,6 +54,7 @@ body{
 
 }
 
+/*Setting up the social media icon*
 .fa-linkedin {
     background: #007bb5;
     color: white;
